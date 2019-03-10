@@ -8,6 +8,10 @@ function Layout({ children }) {
         styles={css`
           html {
             background-color: #f9f9f9;
+            font-size: 62.5%;
+          }
+          body {
+            font-size: 1.6rem;
           }
           * {
             font-family: "Sarabun", sans-serif;
@@ -20,20 +24,24 @@ function Layout({ children }) {
           }
           h1 {
             font-weight: 800;
-            font-size: 40px;
+            font-size: 3.6rem;
           }
           h2 {
             font-weight: 500;
-            font-size: 40px;
+            font-size: 2.6rem;
+          }
+          h3 {
+            font-weight: 500;
+            font-size: 2.2rem;
           }
           p {
             font-weight: 400;
-            font-size: 18px;
+            font-size: 1.6rem;
           }
           a {
             color: #336fbc;
             text-decoration: none;
-            font-size: 18px;
+            font-size: 1.6rem;
             span {
               font-family: "Source Code Pro", monospace;
               font-size: 20px;
