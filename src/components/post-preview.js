@@ -1,17 +1,19 @@
 import React from "react";
 import Excerpt from "./excerpt";
 
-function PostPreview({ title, excerpt }) {
+function PostPreview({ color = "red", title, excerpt, ...rest }) {
   return (
-    <>
-      <h2>{title}</h2>
-      <Excerpt>
-        <p>{excerpt}</p>
-      </Excerpt>
-      <a href="/">
-        Continue reading <span>→</span>
-      </a>
-    </>
+    <a
+      {...rest}
+      css={{
+        position: "relative",
+        margin: 0,
+        padding: 0,
+        backgroundColor: color
+      }}
+    >
+      Hello
+    </a>
   );
 }
 

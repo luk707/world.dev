@@ -12,6 +12,8 @@ function Layout({ children }) {
           }
           body {
             font-size: 1.6rem;
+            margin: 0;
+            padding: 0;
           }
           * {
             font-family: "Sarabun", sans-serif;
